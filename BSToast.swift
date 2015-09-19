@@ -14,7 +14,7 @@ class BSToast: UILabel {
 	init(frame: CGRect, text: String) {
 		super.init(frame: frame)
 		self.text = text
-		self.textColor = UIColor.whiteColor()
+		self.textColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.0)
 		self.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.38)
 		self.alpha = 0
 		self.textAlignment = .Center
@@ -43,6 +43,7 @@ class BSToast: UILabel {
 		UIView.animateWithDuration(0.225, animations: {
 			self.frame = self.originalFrame!
 			self.alpha = 1.0
+			self.textColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 		})
 		NSTimer.scheduledTimerWithTimeInterval(duration, target: self, selector: "hide:", userInfo: nil, repeats: false)
 	}
@@ -53,6 +54,7 @@ class BSToast: UILabel {
 		UIView.animateWithDuration(0.17, animations: {
 			self.frame = bigFrame
 			self.alpha = 0
+			self.textColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.0)
 			}, completion: { value in
 			self.removeFromSuperview()
 		})

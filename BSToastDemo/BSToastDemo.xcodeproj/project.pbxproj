@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02901F431BAD051D007166FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02901F421BAD051D007166FB /* AppDelegate.swift */; };
+		02901F451BAD051D007166FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02901F441BAD051D007166FB /* ViewController.swift */; };
+		02901F481BAD051D007166FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02901F461BAD051D007166FB /* Main.storyboard */; };
+		02901F4A1BAD051D007166FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02901F491BAD051D007166FB /* Assets.xcassets */; };
+		02901F551BAD051D007166FB /* BSToastDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02901F541BAD051D007166FB /* BSToastDemoTests.swift */; };
+		02901F601BAD0554007166FB /* BSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02901F5F1BAD0554007166FB /* BSToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02901F511BAD051D007166FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02901F371BAD051D007166FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02901F3E1BAD051D007166FB;
+			remoteInfo = BSToastDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02901F3F1BAD051D007166FB /* BSToastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSToastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02901F421BAD051D007166FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02901F441BAD051D007166FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02901F471BAD051D007166FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02901F491BAD051D007166FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02901F4B1BAD051D007166FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02901F501BAD051D007166FB /* BSToastDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSToastDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02901F541BAD051D007166FB /* BSToastDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSToastDemoTests.swift; sourceTree = "<group>"; };
+		02901F561BAD051D007166FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02901F5F1BAD0554007166FB /* BSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSToast.swift; path = ../../BSToast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02901F3C1BAD051D007166FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02901F4D1BAD051D007166FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02901F361BAD051D007166FB = {
+			isa = PBXGroup;
+			children = (
+				02901F411BAD051D007166FB /* BSToastDemo */,
+				02901F531BAD051D007166FB /* BSToastDemoTests */,
+				02901F401BAD051D007166FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02901F401BAD051D007166FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02901F3F1BAD051D007166FB /* BSToastDemo.app */,
+				02901F501BAD051D007166FB /* BSToastDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02901F411BAD051D007166FB /* BSToastDemo */ = {
+			isa = PBXGroup;
+			children = (
+				02901F5F1BAD0554007166FB /* BSToast.swift */,
+				02901F421BAD051D007166FB /* AppDelegate.swift */,
+				02901F441BAD051D007166FB /* ViewController.swift */,
+				02901F461BAD051D007166FB /* Main.storyboard */,
+				02901F491BAD051D007166FB /* Assets.xcassets */,
+				02901F4B1BAD051D007166FB /* Info.plist */,
+			);
+			path = BSToastDemo;
+			sourceTree = "<group>";
+		};
+		02901F531BAD051D007166FB /* BSToastDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				02901F541BAD051D007166FB /* BSToastDemoTests.swift */,
+				02901F561BAD051D007166FB /* Info.plist */,
+			);
+			path = BSToastDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02901F3E1BAD051D007166FB /* BSToastDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02901F591BAD051D007166FB /* Build configuration list for PBXNativeTarget "BSToastDemo" */;
+			buildPhases = (
+				02901F3B1BAD051D007166FB /* Sources */,
+				02901F3C1BAD051D007166FB /* Frameworks */,
+				02901F3D1BAD051D007166FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSToastDemo;
+			productName = BSToastDemo;
+			productReference = 02901F3F1BAD051D007166FB /* BSToastDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02901F4F1BAD051D007166FB /* BSToastDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02901F5C1BAD051D007166FB /* Build configuration list for PBXNativeTarget "BSToastDemoTests" */;
+			buildPhases = (
+				02901F4C1BAD051D007166FB /* Sources */,
+				02901F4D1BAD051D007166FB /* Frameworks */,
+				02901F4E1BAD051D007166FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02901F521BAD051D007166FB /* PBXTargetDependency */,
+			);
+			name = BSToastDemoTests;
+			productName = BSToastDemoTests;
+			productReference = 02901F501BAD051D007166FB /* BSToastDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02901F371BAD051D007166FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Flipped Bit";
+				TargetAttributes = {
+					02901F3E1BAD051D007166FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					02901F4F1BAD051D007166FB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 02901F3E1BAD051D007166FB;
+					};
+				};
+			};
+			buildConfigurationList = 02901F3A1BAD051D007166FB /* Build configuration list for PBXProject "BSToastDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02901F361BAD051D007166FB;
+			productRefGroup = 02901F401BAD051D007166FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02901F3E1BAD051D007166FB /* BSToastDemo */,
+				02901F4F1BAD051D007166FB /* BSToastDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02901F3D1BAD051D007166FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02901F4A1BAD051D007166FB /* Assets.xcassets in Resources */,
+				02901F481BAD051D007166FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02901F4E1BAD051D007166FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02901F3B1BAD051D007166FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02901F601BAD0554007166FB /* BSToast.swift in Sources */,
+				02901F451BAD051D007166FB /* ViewController.swift in Sources */,
+				02901F431BAD051D007166FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02901F4C1BAD051D007166FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02901F551BAD051D007166FB /* BSToastDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02901F521BAD051D007166FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02901F3E1BAD051D007166FB /* BSToastDemo */;
+			targetProxy = 02901F511BAD051D007166FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02901F461BAD051D007166FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02901F471BAD051D007166FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02901F571BAD051D007166FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		02901F581BAD051D007166FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02901F5A1BAD051D007166FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BSToastDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterDevelopment.BSToastDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02901F5B1BAD051D007166FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BSToastDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterDevelopment.BSToastDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02901F5D1BAD051D007166FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BSToastDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterDevelopment.BSToastDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSToastDemo.app/BSToastDemo";
+			};
+			name = Debug;
+		};
+		02901F5E1BAD051D007166FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BSToastDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterDevelopment.BSToastDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSToastDemo.app/BSToastDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02901F3A1BAD051D007166FB /* Build configuration list for PBXProject "BSToastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02901F571BAD051D007166FB /* Debug */,
+				02901F581BAD051D007166FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02901F591BAD051D007166FB /* Build configuration list for PBXNativeTarget "BSToastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02901F5A1BAD051D007166FB /* Debug */,
+				02901F5B1BAD051D007166FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02901F5C1BAD051D007166FB /* Build configuration list for PBXNativeTarget "BSToastDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02901F5D1BAD051D007166FB /* Debug */,
+				02901F5E1BAD051D007166FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02901F371BAD051D007166FB /* Project object */;
+}
