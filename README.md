@@ -1,7 +1,7 @@
 # BSToast
 This component was originally written for AppleTV but should work just fine in iOS. Just remember to set the font size unless you want to be surprised ;)
 
-![Demo](http://i.imgur.com/EONPskr.gifv)
+![Demo](http://i.imgur.com/EONPskr.gif)
 
 ### Example
 Drag the `BSToast.swift` file into your project and initialize a notification like so:
