@@ -36,7 +36,8 @@ class BSToast: UILabel {
 		return bigFrame
 	}
 	
-	func showWithDuration(duration: NSTimeInterval) {
+	func showInViewWithDuration(duration: NSTimeInterval, container: UIView) {
+		container.addSubview(self)
 		originalFrame = self.frame
 		self.frame = getBigFrame()
 		
