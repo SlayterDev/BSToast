@@ -30,8 +30,7 @@ class ViewController: UIViewController {
 		let toast = BSToast(frame: CGRectMake(0, 0, toastWidth, toastHeight),
 							text: "Here's a toast notification")
 		toast.center = self.view.center
-		self.view.addSubview(toast)
-		toast.showWithDuration(1.75)
+		toast.showInViewWithDuration(1.75, view: self.view)
 	}
 
 	override func didReceiveMemoryWarning() {
